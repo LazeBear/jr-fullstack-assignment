@@ -11,7 +11,8 @@
 
 ### 1. 熟悉现有代码
 
-仔细阅读提供的代码，包括 html，css 和 js。运用现有的 css，翻转卡片。（只改动 html）
+仔细阅读提供的代码，包括 html，css 和 js。(建议玩一玩最终版本，链接在最下方）
+运用现有的 css，翻转卡片。（只改动 html）
 
 ### 2. 点击卡片实现翻转
 
@@ -30,14 +31,20 @@
     如果已经被翻开
         把该卡片盖上
 ```
+<img width="586" alt="image" src="https://github.com/LazeBear/jr-fullstack-assignment/assets/19187875/9f3d922b-49f0-4599-9ea5-c7f1ef0fe881">
+
 
 ### 4. 倒计时
 
 加入一个 60s 的倒计时，倒计时应该实时的反应在 ui 上
 
+<img width="577" alt="image" src="https://github.com/LazeBear/jr-fullstack-assignment/assets/19187875/7bf080e3-42c5-4ee1-9df8-653ef690aeb5">
+
 ### 5. 分数计算
 
 加入分数计算，计算公式为：当前等级 \*_ 2 _ 当前倒计时的时间
+
+<img width="173" alt="image" src="https://github.com/LazeBear/jr-fullstack-assignment/assets/19187875/993bca9e-bffa-4215-aee8-493e6f187dc4">
 
 ### 6. 动态创建游戏卡片
 
@@ -50,6 +57,9 @@
 在 html 中，有一部分 commented out 的代码，`<!-- <div class="game-board">`
 想要实现的效果，应该是玩家点击 Start Game， 然后内容由 instruction 替换成实际的 game board
 之后每一次的 level 变化，都会重新生成新的 game board
+
+<img width="209" alt="image" src="https://github.com/LazeBear/jr-fullstack-assignment/assets/19187875/ee301aa2-6eec-4109-9efa-92330d55753d">
+
 
 ### 8. 游戏优化
 
